@@ -104,7 +104,7 @@ def watch(streams):
         print("No streams online.")
 
 
-if __name__ == '__main__':
+def main():
     parser = ArgumentParser(
         description="Add twitch channels and watch them directly with your native video application.")
     parser.add_argument("watch", nargs='?', help="Start watching streams!")
